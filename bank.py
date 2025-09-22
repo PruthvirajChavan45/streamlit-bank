@@ -98,3 +98,4 @@ class Bank:
                 cls.save_data(data)
                 return True, "Account deleted"
         return False, "Account not found"
+
