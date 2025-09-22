@@ -6,14 +6,16 @@
 ![Issues](https://img.shields.io/github/issues/PruthvirajChavan45/streambank-app)
 ![Stars](https://img.shields.io/github/stars/PruthvirajChavan45/streambank-app?style=social)
 
-A simple **banking management system** built with **Streamlit**.  
-This project allows users to create and manage accounts with features like deposit, withdrawal, updating info, and deleting accounts — all with a clean web interface.  
+A **simple banking management system** built with **Python & Streamlit**.  
+This project allows users to create and manage accounts with features like deposit, withdrawal, updating info, and deleting accounts - all through a clean web interface.  
+
+> 💡 Ideal for learning **OOP concepts**, **Python development**, and **Streamlit web apps**.  
 
 ---
 
 ## ✨ Features
 
-- 👤 Create a new account with unique account number  
+- 👤 Create a new account with a unique account number  
 - 💰 Deposit money (up to ₹10,000 per transaction)  
 - 🏧 Withdraw money (with balance check)  
 - 📑 View account details (secured with PIN)  
@@ -32,6 +34,7 @@ streambank-app/
 │── bank.py             # Backend logic for bank operations
 │── requirements.txt    # Required Python libraries
 │── data.json           # Auto-generated file to store account data
+│── screenshots/        # App UI screenshots for README.md
 ```
 
 ---
@@ -41,8 +44,8 @@ streambank-app/
 Clone the repository:
 
 ```
-git clone https://github.com/PruthvirajChavan45/streambank-app.git
-cd streambank-app
+git clone https://github.com/PruthvirajChavan45/streambank-bank.git
+cd streambank-bank
 ```
 
 Create a virtual environment (recommended):
@@ -86,14 +89,29 @@ By default, the app runs locally at:
 ### 💰 Deposit Money
 ![Deposit Screenshot](screenshots/deposit.png)
 
+### 🏧 Withdraw Money
+![Withdraw Screenshot](screenshots/withdraw.png)
+
+### 📑 Account Details
+![Show Details Screenshot](screenshots/show_details.png)
+
+### ✏️ Update Your Info
+![Update Info Screenshot](screenshots/update_info.png)
+
+### 🗑️ Delete Account
+![Delete Account Screenshot](screenshots/delete_account.png)
+
 ---
 
 ## 🔮 Future Improvements
 
-- Add transaction history  
-- Implement user authentication with email  
-- Set up database integration (SQLite / PostgreSQL)  
-- Deploy online (Streamlit Cloud / Heroku / etc.)  
+- Add **transaction history** and filter options  
+- Implement **user authentication via email**  
+- Integrate a **database** (SQLite / PostgreSQL) for robust storage  
+- Deploy online using **Streamlit Cloud / Heroku**  
+- Add **unit tests** and improved error handling  
+
+> ⚡ These features are planned for future updates to make the app more complete and production-ready.
 
 ---
 
