@@ -44,8 +44,8 @@ streambank-app/
 Clone the repository:
 
 ```
-git clone https://github.com/PruthvirajChavan45/streambank-bank.git
-cd streambank-bank
+git clone https://github.com/PruthvirajChavan45/streamlit-bank.git
+cd streamlit-bank
 ```
 
 Create a virtual environment (recommended):
